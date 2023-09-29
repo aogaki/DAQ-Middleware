@@ -2,9 +2,9 @@ DESTDIR =
 prefix  = /usr
 
 SUBDIRS += lib
+SUBDIRS += mk
 SUBDIRS += DaqComponent
 SUBDIRS += DaqOperator
-SUBDIRS += mk
 
 .PHONY: $(SUBDIRS)
 
